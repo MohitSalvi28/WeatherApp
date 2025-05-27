@@ -43,10 +43,13 @@ src/
 └── assets/ # (Optional) icons/images
 
 
-Short Description of My Approach 
-🔧 Project Setup: Initialized the project using Vite and React for faster build and hot-reload support.
 
-📦 Component Structure: Broke the UI into reusable components:
+
+## Short Description of My Approach
+ 
+1. Project Setup: Initialized the project using Vite and React for faster build and hot-reload support.
+
+2. Component Structure: Broke the UI into reusable components:
 
 SearchBar for user input
 
@@ -54,16 +57,16 @@ WeatherDisplay to show weather info
 
 ErrorMessage for displaying errors
 
-☁️ API Integration: Used OpenWeatherMap API to fetch real-time weather data based on user input.
+3 API Integration: Used OpenWeatherMap API to fetch real-time weather data based on user input.
 
-🔁 API Polling: Implemented automatic data refresh every 30 seconds using setInterval inside useEffect.
+4 API Polling: Implemented automatic data refresh every 30 seconds using setInterval inside useEffect.
 
-🌍 State Management: Used React Context API to manage global state (city and weather data).
+5 State Management: Used React Context API to manage global state (city and weather data).
 
-💾 Persistence: Used localStorage to store and reload the last searched city when the app is reopened.
+6 Persistence: Used localStorage to store and reload the last searched city when the app is reopened.
 
-⚠️ Error Handling: Managed errors gracefully (e.g., invalid city names, network issues) with user-friendly messages.
+⚠7 Error Handling: Managed errors gracefully (e.g., invalid city names, network issues) with user-friendly messages.
 
-🎨 Styling: Applied CSS and Flexbox to ensure a clean, centered, and responsive UI.
+8 Styling: Applied CSS and Flexbox to ensure a clean, centered, and responsive UI.
 
-✅ Best Practices: Focused on clean code, modular design, and proper use of React hooks (useState, useEffect, useContext).
+9 Best Practices: Focused on clean code, modular design, and proper use of React hooks (useState, useEffect, useContext).
