@@ -35,16 +35,6 @@ A clean, responsive weather dashboard built with React and Vite that displays re
 
 ---
 
-## 📁 Project Structure
-src/
-├── App.jsx # Main application component
-├── App.css # Application styles
-├── main.jsx # Entry point
-└── assets/ # (Optional) icons/images
-
-
-
-
 ## Short Description of My Approach
  
 1. Project Setup: Initialized the project using Vite and React for faster build and hot-reload support.
